@@ -1,0 +1,25 @@
+.container {
+  width: fit-content  ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  border-radius: 6px;
+
+  background: #242424;
+  border: 1px solid #3a3a3a;
+
+  font-size: 0.8rem;
+
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.item {
+  padding: 8px 16px;
+}
+
+.selected {
+  background: #7e63d6;
+}

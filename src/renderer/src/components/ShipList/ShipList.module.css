@@ -1,0 +1,45 @@
+.container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.ship {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.selected .shipCell {
+  background: #7e63d6;
+}
+
+.btns {
+  display: flex;
+  gap:10px
+}
+
+
+.shipCell {
+  height: 25px;
+  width: 25px;
+
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+
+.shipCell:last-child {
+  border-right: 1px solid #dadada;
+}
+
+.shipCell:first-child {
+  border-left: 1px solid #dadada;
+}

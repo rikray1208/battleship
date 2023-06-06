@@ -1,0 +1,55 @@
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #252525;
+  border: 1px solid #3a3a3a;
+
+
+  user-select: none;
+  cursor: pointer;
+
+  position: relative;
+}
+
+.animation {
+  font-size: 2rem;
+}
+
+.dot {
+  transition: all 150ms ease-in;
+}
+
+
+.ship {
+  background: #2E3440;
+  border-color: #2E3440;
+}
+
+.available {
+  background: #40b26b;
+}
+
+.notAvailable {
+  background: #fb464c;
+}
+
+.cellItem {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coordinateX {
+  position: absolute;
+  top: -35px;
+}
+
+.coordinateY {
+  position: absolute;
+  left: -35px;
+}

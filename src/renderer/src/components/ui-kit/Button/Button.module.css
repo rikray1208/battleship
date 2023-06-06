@@ -1,0 +1,21 @@
+.button {
+  text-align: center;
+  padding: 6px 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #1e1e1e;
+  border: 1px solid #dadada;
+  border-radius: 6px;
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: all 200ms ease;
+}
+
+.button:active {
+  transform: scale(0.98);
+}

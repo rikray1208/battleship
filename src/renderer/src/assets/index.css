@@ -1,0 +1,30 @@
+body {
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  color: #dadada;
+
+  background-color: #1e1e1e;
+  overflow: hidden;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.container {
+  height: 100vh;
+}
